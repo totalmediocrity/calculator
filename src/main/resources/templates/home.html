@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+
+    <label> Первое число: </label> <br>
+        <input type="number" id="perv" name="perv" style="margin:10px"><br>
+
+    <input type="radio" id="+" name="math" value="+">
+    <label for="+">+</label><br>
+    <input type="radio" id="-" name="math" value="-">
+    <label for="-">-</label><br>
+    <input type="radio" id="*" name="math" value="*">
+    <label for="*">*</label><br>
+    <input type="radio" id="/" name="math" value="/">
+    <label for="/">/</label><br><br>
+
+    <label>Второе число: </label> <br>
+    <input type="number" id="vtor" name="vtor" style="margin:10px"> <br>
+
+    <input type="submit" id="getinform" value="Get" formaction="/calc" formmethod="get" style="margin:10px">
+    <input type="submit" id="postinform" value="Post" formaction="/calc" formmethod="post" >
+</form>
+</body>
+</html>
+
